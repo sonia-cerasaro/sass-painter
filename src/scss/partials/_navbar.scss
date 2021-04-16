@@ -1,0 +1,28 @@
+nav {
+  color: #fff;
+  &.navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: #000;
+    div.navcontainer{
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.navtop {
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+  }
+}
+
+.navbot {
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+  }
+}
