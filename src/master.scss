@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+$primary: red;
+
+h1 {
+  color: $primary;
+}
+
+p {
+  color: $primary;
+}
