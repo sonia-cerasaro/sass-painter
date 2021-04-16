@@ -1,5 +1,6 @@
 nav {
   color: #fff;
+  font-size: 12px;
   &.navbar {
     width: 100vw;
     height: 10vh;
@@ -16,6 +17,19 @@ nav {
     display: flex;
     list-style: none;
     justify-content: flex-end;
+    margin-top: 5px;
+    li {
+      padding: 6px;
+      margin: 7px;
+      i {
+        color: #54a3f2;
+      }
+      select {
+        border-radius: 2px;
+        padding: 3px;
+        font-size: 10px;
+      }
+    }
   }
 }
 
@@ -24,5 +38,19 @@ nav {
     display: flex;
     list-style: none;
     justify-content: flex-start;
+    margin-top: 5px;
+
+    li {
+      display: flex;
+      margin: 10px;
+      i {
+        color: grey;
+        margin-left: 2px;
+      }
+      .logo{
+        width: 70px;
+        margin-bottom: 5px;
+      }
+    }
   }
 }

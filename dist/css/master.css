@@ -8,6 +8,7 @@
 
 nav {
   color: #fff;
+  font-size: 12px;
 }
 nav.navbar {
   width: 100vw;
@@ -23,16 +24,43 @@ nav.navbar div.navcontainer {
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  margin-top: 5px;
+}
+.navtop ul li {
+  padding: 6px;
+  margin: 7px;
+}
+.navtop ul li i {
+  color: #54a3f2;
+}
+.navtop ul li select {
+  border-radius: 2px;
+  padding: 3px;
+  font-size: 10px;
 }
 
 .navbot ul {
   display: flex;
   list-style: none;
   justify-content: flex-start;
+  margin-top: 5px;
+}
+.navbot ul li {
+  display: flex;
+  margin: 10px;
+}
+.navbot ul li i {
+  color: grey;
+  margin-left: 2px;
+}
+.navbot ul li .logo {
+  width: 70px;
+  margin-bottom: 5px;
 }
 
 nav {
   color: #fff;
+  font-size: 12px;
 }
 nav.navbar {
   width: 100vw;
@@ -48,10 +76,36 @@ nav.navbar div.navcontainer {
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  margin-top: 5px;
+}
+.navtop ul li {
+  padding: 6px;
+  margin: 7px;
+}
+.navtop ul li i {
+  color: #54a3f2;
+}
+.navtop ul li select {
+  border-radius: 2px;
+  padding: 3px;
+  font-size: 10px;
 }
 
 .navbot ul {
   display: flex;
   list-style: none;
   justify-content: flex-start;
+  margin-top: 5px;
+}
+.navbot ul li {
+  display: flex;
+  margin: 10px;
+}
+.navbot ul li i {
+  color: grey;
+  margin-left: 2px;
+}
+.navbot ul li .logo {
+  width: 70px;
+  margin-bottom: 5px;
 }
