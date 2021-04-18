@@ -1,14 +1,13 @@
 section {
   &.first_sec {
-    width: 100vw;
-    height: 50vh;
+    @include main-width;
     background-color: $icegrey;
     div {
       &.container_text {
         @include container-center;
         p {
           padding-top: 30px;
-          margin-bottom: 15px;
+          margin-bottom: 20px;
           font-size: 1.5em;
         }
       }
@@ -18,14 +17,44 @@ section {
 div {
   &.container_images {
     @include container-center;
-    height: 100px;
-    background-color: blue;
+    @include flex-box;
+    height: 250px;
     div {
       &.image_container {
-        width: 20px;
-        height: 100%;
-        background-color: red;
-        border: black solid 1px;
+        width: 32%;
+        height: $extend-all;
+        background-color: $white;
+        .image_small_container{
+          width: $extend-all;
+          height: 50%;
+          @include background-box;
+        }
+      }
+    }
+  }
+}
+div {
+  &.text_img_container {
+    @include flex-box;
+    flex-direction: column;
+    align-items: stretch;
+    span {
+      display: flex;
+      padding-top: 10px;
+      p:first-child {
+        margin-right: 2px;
+        margin-left: 5px;
+      }
+    }
+    p {
+      &.p_sec{
+        margin: 5px;
+        font-size: 10px;
+      }
+    }
+    p {
+      &.p_sec:last-child {
+        font-size: 10px;
       }
     }
   }

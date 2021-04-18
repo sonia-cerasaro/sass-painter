@@ -3,10 +3,8 @@
 section {
   div {
     &.background_container {
-      width: 100vw;
-      height: 50vh;
-      background-size: cover;
-      background-repeat: no-repeat;
+      @include main-width;
+      @include background-box;
       .back_center_container{
         @include container-center;
         padding-top: 70px;
@@ -40,7 +38,7 @@ div {
         background-color: $black;
         color: $white;
         margin-right: 5px;
-        border: $black solid 2px;
+        border: $black solid 1px;
       }
       &.button_header.transparent{
         padding: 10px;
