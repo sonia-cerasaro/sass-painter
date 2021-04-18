@@ -1,0 +1,101 @@
+section {
+  &.foot_first_sec {
+    width: 100vw;
+    height: 27vh;
+    background-color: $icegrey;
+    div {
+      &.container_tail {
+        @include container-center;
+        @include flex-box;
+        div {
+          &.ul_container {
+            width: 20%;
+            display: inline-block;
+            ul {
+              color: $grey;
+              li {
+                &.li_list {
+                  font-size: 10px;
+                  font-weight: lighter;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+div {
+  &.main_media_container {
+    @include container-center;
+    display: flex;
+    justify-content: flex-end;
+    div {
+      &.small_media_container {
+        width: 200px;
+        @include flex-box;
+        div {
+          &.square {
+            width: 25px;
+            height: 25px;
+            position: relative;
+            i {
+              position: absolute;
+              @include transform;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+section {
+  &.foot_second_sec {
+    width: 100vw;
+    height: 16vh;
+    background-color: $grey;
+    display: flex;
+    justify-content: space-between;
+    div {
+      &.base_foot_cont {
+        @include container-center;
+        display: flex;
+        div {
+          &.cont_brands {
+            width: 40%;
+            height: 100px;
+            @include flex-box;
+            flex-shrink: 1;
+            div {
+              &.cont_little_brand {
+                position: relative;
+                img {
+                  position: absolute;
+                  @include transform;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+div {
+  &.cont_copyrights {
+    width: 100%;
+    .cont_ul_copyright {
+      ul {
+        margin-top: 50px;
+        li {
+          float: right;
+          display: inline-block;
+          font-size: 10px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}
