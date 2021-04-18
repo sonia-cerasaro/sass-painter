@@ -4,15 +4,23 @@
   border: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.no_style {
+  list-style: none;
+}
+
+.text_center {
+  text-align: center;
 }
 
 nav {
   color: #fff;
-  font-size: 12px;
 }
 nav.navbar {
-  width: 100vw;
-  height: 10vh;
+  width: 100%;
+  height: 20%;
   background-color: #000;
 }
 nav.navbar div.navcontainer {
@@ -22,13 +30,16 @@ nav.navbar div.navcontainer {
 
 .navtop ul {
   display: flex;
-  list-style: none;
   justify-content: flex-end;
   margin-top: 5px;
+  font-weight: lighter;
+  color: #7b7b82;
 }
 .navtop ul li {
   padding: 6px;
   margin: 7px;
+  color: #7b7b82;
+  font-size: 10px;
 }
 .navtop ul li i {
   color: #54a3f2;
@@ -41,16 +52,17 @@ nav.navbar div.navcontainer {
 
 .navbot ul {
   display: flex;
-  list-style: none;
   justify-content: flex-start;
   margin-top: 5px;
+  font-weight: normal;
 }
 .navbot ul li {
   display: flex;
   margin: 10px;
+  font-size: 11px;
 }
 .navbot ul li i {
-  color: grey;
+  color: #7b7b82;
   margin-left: 2px;
 }
 .navbot ul li .logo {
@@ -60,11 +72,10 @@ nav.navbar div.navcontainer {
 
 nav {
   color: #fff;
-  font-size: 12px;
 }
 nav.navbar {
-  width: 100vw;
-  height: 10vh;
+  width: 100%;
+  height: 20%;
   background-color: #000;
 }
 nav.navbar div.navcontainer {
@@ -74,13 +85,16 @@ nav.navbar div.navcontainer {
 
 .navtop ul {
   display: flex;
-  list-style: none;
   justify-content: flex-end;
   margin-top: 5px;
+  font-weight: lighter;
+  color: #7b7b82;
 }
 .navtop ul li {
   padding: 6px;
   margin: 7px;
+  color: #7b7b82;
+  font-size: 10px;
 }
 .navtop ul li i {
   color: #54a3f2;
@@ -93,19 +107,147 @@ nav.navbar div.navcontainer {
 
 .navbot ul {
   display: flex;
-  list-style: none;
   justify-content: flex-start;
   margin-top: 5px;
+  font-weight: normal;
 }
 .navbot ul li {
   display: flex;
   margin: 10px;
+  font-size: 11px;
 }
 .navbot ul li i {
-  color: grey;
+  color: #7b7b82;
   margin-left: 2px;
 }
 .navbot ul li .logo {
   width: 70px;
   margin-bottom: 5px;
+}
+
+nav {
+  color: #fff;
+}
+nav.navbar {
+  width: 100%;
+  height: 20%;
+  background-color: #000;
+}
+nav.navbar div.navcontainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navtop ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  font-weight: lighter;
+  color: #7b7b82;
+}
+.navtop ul li {
+  padding: 6px;
+  margin: 7px;
+  color: #7b7b82;
+  font-size: 10px;
+}
+.navtop ul li i {
+  color: #54a3f2;
+}
+.navtop ul li select {
+  border-radius: 2px;
+  padding: 3px;
+  font-size: 10px;
+}
+
+.navbot ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  font-weight: normal;
+}
+.navbot ul li {
+  display: flex;
+  margin: 10px;
+  font-size: 11px;
+}
+.navbot ul li i {
+  color: #7b7b82;
+  margin-left: 2px;
+}
+.navbot ul li .logo {
+  width: 70px;
+  margin-bottom: 5px;
+}
+
+section div.background_container {
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section div.background_container .back_center_container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+section div.background_container .back_center_container img {
+  width: 150px;
+}
+
+div.items_container > p {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-size: 1.2em;
+}
+
+div.p_container > p {
+  color: #930b74;
+  font-style: oblique;
+  margin-top: 3px;
+}
+
+div.button_container {
+  margin-top: 20px;
+}
+div.button_container button.button_header.black {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  margin-right: 5px;
+  border: #000 solid 2px;
+}
+div.button_container button.button_header.transparent {
+  padding: 10px;
+  background-color: transparent;
+  color: #000;
+  border: #000 solid 2px;
+}
+
+section.first_sec {
+  width: 100vw;
+  height: 50vh;
+  background-color: #e1e6e8;
+}
+section.first_sec div.container_text {
+  width: 80%;
+  margin: 0 auto;
+}
+section.first_sec div.container_text p {
+  padding-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+div.container_images {
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  background-color: blue;
+}
+div.container_images div.image_container {
+  width: 20px;
+  height: 100%;
+  background-color: red;
+  border: black solid 1px;
 }

@@ -1,0 +1,32 @@
+section {
+  &.first_sec {
+    width: 100vw;
+    height: 50vh;
+    background-color: $icegrey;
+    div {
+      &.container_text {
+        @include container-center;
+        p {
+          padding-top: 30px;
+          margin-bottom: 15px;
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}
+div {
+  &.container_images {
+    @include container-center;
+    height: 100px;
+    background-color: blue;
+    div {
+      &.image_container {
+        width: 20px;
+        height: 100%;
+        background-color: red;
+        border: black solid 1px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@mixin container-center {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+@mixin main-width {
+  width: 100vh;
+  height: 60vh;
+}
+
+@mixin clearfix {
+  clear: both;
+  content: '';
+  display: table;
+}
