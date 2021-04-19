@@ -8,26 +8,6 @@
   list-style: none;
 }
 
-.no_style {
-  list-style: none;
-}
-
-.text_center {
-  text-align: center;
-}
-
-.oblique {
-  font-style: oblique;
-}
-
-.font_light {
-  font-weight: lighter;
-}
-
-.line_height {
-  line-height: 1.6;
-}
-
 .white {
   color: #fff;
 }
@@ -61,7 +41,7 @@
 }
 
 .blue_text {
-  color: #2d4789;
+  color: #54a3f2;
 }
 
 .pink {
@@ -90,6 +70,30 @@
 
 .mr_bot_2 {
   margin-bottom: 20px;
+}
+
+.no_style {
+  list-style: none;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.font_oblique {
+  font-style: oblique;
+}
+
+.font_light {
+  font-weight: 300;
+}
+
+.line_height {
+  line-height: 1.6;
+}
+
+.font_bold {
+  font-weight: bold;
 }
 
 .background_jambo {
@@ -141,14 +145,13 @@ nav.navbar div.navcontainer {
   display: flex;
   justify-content: flex-end;
   margin-top: 5px;
-  font-weight: lighter;
-  color: #7b7b82;
+  color: #87878e;
 }
 .navtop ul li {
   padding: 6px;
   margin: 7px;
-  color: #7b7b82;
-  font-size: 10px;
+  color: #87878e;
+  font-size: 1em;
 }
 .navtop ul li i {
   color: #54a3f2;
@@ -156,123 +159,79 @@ nav.navbar div.navcontainer {
 .navtop ul li select {
   border-radius: 2px;
   padding: 3px;
-  font-size: 10px;
+  font-size: 0.9em;
 }
 
+.navbot div.logo_container {
+  margin-bottom: 20px;
+}
+.navbot div.logo_container img.logo {
+  width: 110px;
+}
+
+.navbot {
+  display: flex;
+}
 .navbot ul {
   display: flex;
   justify-content: flex-start;
   margin-top: 5px;
-  font-weight: normal;
 }
 .navbot ul li {
   display: flex;
   margin: 10px;
-  font-size: 11px;
+  padding-left: 10px;
+  font-size: 1em;
 }
 .navbot ul li i {
-  color: #7b7b82;
-  margin-left: 2px;
-}
-.navbot ul li .logo {
-  width: 70px;
-  margin-bottom: 5px;
-}
-
-nav {
-  color: #fff;
-}
-nav.navbar {
-  width: 100vw;
-  height: 20%;
-  background-color: #000;
-}
-nav.navbar div.navcontainer {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.navtop ul {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 5px;
-  font-weight: lighter;
-  color: #7b7b82;
-}
-.navtop ul li {
-  padding: 6px;
-  margin: 7px;
-  color: #7b7b82;
-  font-size: 10px;
-}
-.navtop ul li i {
-  color: #54a3f2;
-}
-.navtop ul li select {
-  border-radius: 2px;
-  padding: 3px;
-  font-size: 10px;
-}
-
-.navbot ul {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 5px;
-  font-weight: normal;
-}
-.navbot ul li {
-  display: flex;
-  margin: 10px;
-  font-size: 11px;
-}
-.navbot ul li i {
-  color: #7b7b82;
-  margin-left: 2px;
-}
-.navbot ul li .logo {
-  width: 70px;
-  margin-bottom: 5px;
+  color: #87878e;
+  margin-top: 2px;
+  margin-left: 3px;
 }
 
 section div.background_container {
   width: 100vw;
-  height: 60vh;
+  height: 45vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
 }
 section div.background_container .back_center_container {
   width: 80%;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 section div.background_container .back_center_container img {
-  width: 150px;
+  width: 200px;
 }
 
 div.items_container > p {
   margin-top: 20px;
-  margin-bottom: 16px;
-  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-size: 1.6em;
 }
 
 div.p_container > p {
-  color: #930b74;
-  font-style: oblique;
+  color: #d642ae;
   margin-top: 3px;
+  font-size: 1.2em;
 }
 
 div.button_container {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 div.button_container button.button_header.black {
-  padding: 10px;
+  font-size: 1.3em;
+  padding: 10px 25px;
   background-color: #000;
   color: #fff;
-  margin-right: 5px;
   border: #000 solid 1px;
+  margin-right: 20px;
 }
 div.button_container button.button_header.transparent {
-  padding: 10px;
+  font-size: 1.3em;
+  padding: 10px 25px;
   background-color: transparent;
   color: #000;
   border: #000 solid 2px;
@@ -280,7 +239,7 @@ div.button_container button.button_header.transparent {
 
 section.first_sec {
   width: 100vw;
-  height: 60vh;
+  height: 45vh;
   background-color: #e1e6e8;
 }
 section.first_sec div.container_text {

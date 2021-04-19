@@ -1,22 +1,4 @@
-.no_style {
-  list-style: none;
-}
-
-.text_center {
-  text-align: center;
-}
-
-.oblique {
-  font-style: oblique;
-}
-
-.font_light {
-  font-weight: lighter;
-}
-
-.line_height {
-  line-height: 1.6;
-}
+// COLORS
 
 .white {
   color: #fff;
@@ -51,7 +33,7 @@
 }
 
 .blue_text {
-  color: #2d4789;
+  color: #54a3f2;
 }
 
 .pink {
@@ -81,6 +63,33 @@
 .mr_bot_2 {
   margin-bottom: 20px;
 }
+
+// TEXT STYLE
+
+.no_style {
+  list-style: none;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.font_oblique {
+  font-style: oblique;
+}
+
+.font_light {
+  font-weight: 300;
+}
+
+.line_height {
+  line-height: 1.6;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
 
 // BACKGROUND-IMAGES
 

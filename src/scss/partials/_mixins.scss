@@ -21,7 +21,11 @@
 
 @mixin main-width {
   width: 100vw;
-  height: 60vh;
+  height: 45vh;
+}
+
+@mixin button-size {
+  padding: 10px 25px;
 }
 
 @mixin clearfix {

@@ -1,15 +1,15 @@
-@import '_navbar.scss';
-
 section {
   div {
     &.background_container {
       @include main-width;
       @include background-box;
+      background-position: center;
+      background-size: 150%;
       .back_center_container{
         @include container-center;
-        padding-top: 70px;
+        padding-top: 100px;
         img {
-          width: 150px;
+          width: 200px;
         }
       }
     }
@@ -18,30 +18,32 @@ section {
 div {
   &.items_container > p {
     margin-top: 20px;
-    margin-bottom: 16px;
-    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-size: 1.6em;
   }
 }
 div {
   &.p_container > p {
-    color: #930b74;
-    font-style: oblique;
+    color: #d642ae;
     margin-top: 3px;
+    font-size: 1.2em;
   }
 }
 div {
   &.button_container {
-    margin-top: 20px;
+    margin-top: 30px;
     button {
       &.button_header.black{
-        padding: 10px;
+        font-size: 1.3em;
+        @include button-size;
         background-color: $black;
         color: $white;
-        margin-right: 5px;
         border: $black solid 1px;
+        margin-right: 20px;
       }
       &.button_header.transparent{
-        padding: 10px;
+        font-size: 1.3em;
+        @include button-size;
         background-color: transparent;
         color: $black;
         border: $black solid 2px;
