@@ -21,14 +21,16 @@ nav {
       padding: 6px;
       margin: 7px;
       color: $lightgrey;
-      font-size: 1em;
+      font-size: 0.90em;
       i {
         color: $blue;
       }
       select {
+        width: 65px;
         border-radius: 2px;
-        padding: 3px;
+        padding: 1px;
         font-size: 0.90em;
+        color: $grey;
       }
     }
   }
@@ -55,7 +57,7 @@ nav {
       display: flex;
       margin: 10px;
       padding-left: 10px;
-      font-size: 1em;
+      font-size: 0.90em;
       i {
         color: $lightgrey;
         margin-top: 2px;

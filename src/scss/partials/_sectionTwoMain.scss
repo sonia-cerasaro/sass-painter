@@ -1,17 +1,16 @@
 section {
   &.second_sec {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     background-color: $icegrey;
     .container_block_images{
       @include container-center;
-      height: 600px;
       div {
         &.block_container {
           display: inline-block;
           float:left;
           width: 50%;
-          height: 200px;
+          height: 220px;
         }
         &.block_container:after {
           @include clearfix;
@@ -26,14 +25,14 @@ div {
       margin-bottom: 10px;
       p {
         &.white {
-          font-size: 15px;
+          font-size: 1.7em;
         }
       }
     }
     button {
       &.button_block {
-        font-size: 10px;
-        width: 100px;
+        font-size: 1em;
+        width: 120px;
         padding: 6px;
         margin-top: 5px;
         margin-left: 10px;
@@ -50,6 +49,7 @@ div {
         height: 150px;
         @include background-box;
         background-position: center;
+        background-size: contain;
         position: relative;
         @include transform
       }
