@@ -1,8 +1,18 @@
-// COLORS
+// COLORS TEXT
 
 .white {
   color: #fff;
 }
+
+.grey_text {
+  color: #54515b;
+}
+
+.blue_text {
+  color: #54a3f2;
+}
+
+// COLORS BACKGROUND
 
 .backgr_violet {
   background-color: #47297c;
@@ -10,10 +20,6 @@
 
 .grey {
   background-color: #54515b;
-}
-
-.grey_text {
-  color: #54515b;
 }
 
 .sky {
@@ -32,16 +38,54 @@
   background-color: #2d4789;
 }
 
-.blue_text {
-  color: #54a3f2;
-}
-
 .pink {
   background-color: #e03e64;
 }
 
 .yellow {
   background-color: #e2b90a;
+}
+
+// MARGINS
+
+@for $i from 1 through 4 {
+  .mt-#{$i*15} {
+    margin-top: 15px * $i;
+  }
+}
+
+$titles: h1, h2, h3, h4, h5, h6;
+@each $title in $titles {
+  #{$title} {
+    font-size: 4em;
+    font-weight: 300;
+  }
+}
+
+$types: m, p;
+@each $singoloValoreDiTypes in $types {
+  @for $i from 1 through 7 {
+    .#{$singoloValoreDiTypes}t-#{$i} {
+      @if $singoloValoreDiTypes == m {
+        margin-top: 0.25em * $i;
+      } @else {
+        padding-top: 0.25em * $i;
+      }
+    }
+  }
+}
+
+$types: m, p;
+@each $type in $types {
+  @for $i from 1 through 7 {
+    .#{$type}t-prova#{$i} {
+      @if $type == m {
+        margin-bottom: 0.25em * $i;
+      } @else {
+        padding-bottom: 0.25em * $i;
+      }
+    }
+  }
 }
 
 .mr_tot_1 {
@@ -114,7 +158,7 @@
 
 .background_wacom {
   background-image: url('../img/wacom-painter.jpg');
-  
+
 }
 
 .background_wacom_tablet {

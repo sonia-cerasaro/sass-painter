@@ -33,3 +33,7 @@
   content: '';
   display: table;
 }
+
+@mixin margin-bottom ($value) {
+  margin-bottom: #{$value}px;
+}
