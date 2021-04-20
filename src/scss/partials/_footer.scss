@@ -1,8 +1,9 @@
 section {
   &.foot_first_sec {
     width: 100vw;
-    height: 27vh;
+    height: 23vh;
     background-color: $icegrey;
+    padding-top: 20px;
     div {
       &.container_tail {
         @include container-center;
@@ -15,8 +16,9 @@ section {
               color: $grey;
               li {
                 &.li_list {
-                  font-size: 10px;
-                  font-weight: lighter;
+                  line-height: 2;
+                  font-size: 0.9em;
+                  font-weight: 300;
                 }
               }
             }
@@ -33,14 +35,15 @@ div {
     justify-content: flex-end;
     div {
       &.small_media_container {
-        width: 200px;
+        width: 150px;
         @include flex-box;
         div {
           &.square {
-            width: 25px;
-            height: 25px;
+            width: 20px;
+            height: 20px;
             position: relative;
             i {
+              font-size: 1.2em;
               position: absolute;
               @include transform;
               color: $white;
@@ -54,8 +57,8 @@ div {
 section {
   &.foot_second_sec {
     width: 100vw;
-    height: 16vh;
-    background-color: $grey;
+    height: 10vh;
+    background-color: $black;
     display: flex;
     justify-content: space-between;
     div {
@@ -88,11 +91,13 @@ div {
     width: 100%;
     .cont_ul_copyright {
       ul {
-        margin-top: 50px;
+        color: $lightgrey;
+          margin-top: 40px;
+          display: flex;
+          justify-content: flex-end;
         li {
-          float: right;
-          display: inline-block;
-          font-size: 10px;
+          padding-right: 10px;
+          font-size: 0.9em;
           letter-spacing: 1px;
         }
       }

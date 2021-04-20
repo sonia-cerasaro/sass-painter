@@ -35,7 +35,7 @@ div {
         width: 120px;
         padding: 6px;
         margin-top: 5px;
-        margin-left: 10px;
+        margin-left: 6px;
       }
     }
   }
@@ -45,13 +45,15 @@ div {
     @include background-box;
     div {
       &.image_inside_container {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 180px;
         @include background-box;
         background-position: center;
-        background-size: contain;
         position: relative;
-        @include transform
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        // METTI MIXIN E GIOCA CON PARAMETRI
       }
     }
   }

@@ -25,7 +25,7 @@
 }
 
 .sky {
-  background-color: #53a0db;
+  background-color: #4d5fbc;
 }
 
 .fucsia {
@@ -197,7 +197,7 @@ nav.navbar div.navcontainer {
 
 section div.background_container {
   width: 100vw;
-  height: 45vh;
+  height: 43vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -245,7 +245,7 @@ div.button_container button.button_header.transparent {
 
 section.first_sec {
   width: 100vw;
-  height: 45vh;
+  height: 43vh;
   background-color: #e1e6e8;
 }
 section.first_sec div.container_text {
@@ -328,7 +328,7 @@ div.block_container button.button_block {
   width: 120px;
   padding: 6px;
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 6px;
 }
 
 div.block_container.plus_image {
@@ -336,22 +336,22 @@ div.block_container.plus_image {
   background-repeat: no-repeat;
 }
 div.block_container.plus_image div.image_inside_container {
-  width: 200px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 35%;
   transform: translate(-50%, -50%);
 }
 
 section.foot_first_sec {
   width: 100vw;
-  height: 27vh;
+  height: 23vh;
   background-color: #e1e6e8;
+  padding-top: 20px;
 }
 section.foot_first_sec div.container_tail {
   width: 80%;
@@ -367,8 +367,9 @@ section.foot_first_sec div.container_tail div.ul_container ul {
   color: #54515b;
 }
 section.foot_first_sec div.container_tail div.ul_container ul li.li_list {
-  font-size: 10px;
-  font-weight: lighter;
+  line-height: 2;
+  font-size: 0.9em;
+  font-weight: 300;
 }
 
 div.main_media_container {
@@ -378,16 +379,17 @@ div.main_media_container {
   justify-content: flex-end;
 }
 div.main_media_container div.small_media_container {
-  width: 200px;
+  width: 150px;
   display: flex;
   justify-content: space-between;
 }
 div.main_media_container div.small_media_container div.square {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   position: relative;
 }
 div.main_media_container div.small_media_container div.square i {
+  font-size: 1.2em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -397,8 +399,8 @@ div.main_media_container div.small_media_container div.square i {
 
 section.foot_second_sec {
   width: 100vw;
-  height: 16vh;
-  background-color: #54515b;
+  height: 10vh;
+  background-color: #000;
   display: flex;
   justify-content: space-between;
 }
@@ -428,11 +430,13 @@ div.cont_copyrights {
   width: 100%;
 }
 div.cont_copyrights .cont_ul_copyright ul {
-  margin-top: 50px;
+  color: #87878e;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
 }
 div.cont_copyrights .cont_ul_copyright ul li {
-  float: right;
-  display: inline-block;
-  font-size: 10px;
+  padding-right: 10px;
+  font-size: 0.9em;
   letter-spacing: 1px;
 }
